@@ -1,0 +1,199 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: var(--bs-dark)!important;
+}
+.table th,
+.table td {
+  border: 2px solid #0000000d;
+  text-align: left;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  background-color: #ffffff;
+  max-width: 250px;
+}
+
+
+.table tr:hover {
+  background-color: #0000000d;
+}
+.coin-image img {
+  margin-right: 10px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+}
+body{
+  color: white !important;
+}
+.modern-card {
+  background: rgba(30, 30, 30, 0.7);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+}
+
+.modern-card:hover {
+  border-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
+  transform: translateY(-2px);
+}
+
+.trend-badge.up {
+  background: linear-gradient(135deg, #00ff8840, #00ff8820);
+  color: #00ff88;
+  border: 1px solid #00ff8840;
+}
+
+.trend-badge.down {
+  background: linear-gradient(135deg, #ff444440, #ff444420);
+  color: #ff4444;
+  border: 1px solid #ff444440;
+}
+
+
+
+
+@media (max-width: 1200px) {
+  .navbar {
+    margin-bottom: 10px;
+  }
+  .fear-greed {
+    margin-top: 15vh;
+  }
+  .sentiment {
+    padding-top: 20px;
+  }
+  
+  /* Tablo yazı boyutu */
+  .home {
+    font-size: 0.875rem;
+  }
+  
+  .home th,
+  .home td {
+    padding: 0.4rem 0.6rem;
+  }
+  
+  .home .coin-image img {
+    width: 16px;
+    height: 16px;
+  }
+}
+
+@media (max-width: 992px) {
+  .home {
+    font-size: 0.8rem;
+  }
+  
+  .home th,
+  .home td {
+    padding: 0.35rem 0.5rem;
+  }
+  
+  .home .coin-image img {
+    width: 14px;
+    height: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .home {
+    font-size: 0.75rem;
+  }
+  
+  .home th,
+  .home td {
+    padding: 0.3rem 0.4rem;
+  }
+  
+  .home .coin-image img {
+    width: 12px;
+    height: 12px;
+  }
+  
+  /* Container padding'i azalt */
+  .home.container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  .home {
+    font-size: 0.7rem;
+  }
+  
+  .home th,
+  .home td {
+    padding: 0.25rem 0.3rem;
+  }
+  
+  .home .coin-image img {
+    width: 10px;
+    height: 10px;
+    margin-right: 2px;
+  }
+  
+  /* Çok küçük ekranlarda tabloyu yatay kaydırma */
+  .home {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  
+  /* Container'ı tam genişlik yap */
+  .home.container {
+    max-width: 100%;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+
+@media (max-width: 400px) {
+  .home {
+    font-size: 0.65rem;
+  }
+  
+  .home th,
+  .home td {
+    padding: 0.2rem 0.25rem;
+  }
+  
+  .home .coin-image {
+    min-width: 120px; /* Coin sütununa minimum genişlik */
+  }
+  
+  /* Sütun başlıklarını kısalt */
+  .home th:nth-child(1)::after { content: ""; }
+  .home th:nth-child(2)::after { content: ""; }
+  .home th:nth-child(3)::after { content: " 24h"; }
+  .home th:nth-child(4)::after { content: " Cap"; }
+}
+
+/* Ekstra küçük cihazlar için */
+@media (max-width: 360px) {
+  .home {
+    font-size: 0.6rem;
+  }
+  
+  .home th,
+  .home td {
+    padding: 0.15rem 0.2rem;
+  }
+  
+  .home .coin-image img {
+    width: 8px;
+    height: 8px;
+  }
+  
+  /* Bazı sütunları tamamen gizle */
+  .home th:nth-child(4),
+  .home td:nth-child(4) {
+    display: none;
+  }
+}
